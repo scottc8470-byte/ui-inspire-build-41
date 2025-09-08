@@ -15,12 +15,12 @@ export default function Chat() {
       {/* Header */}
       <div className="flex items-center justify-between p-6 border-b border-border">
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-            <Brain className="h-6 w-6 text-primary-foreground" />
+          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-white p-1">
+            <img src="/lovable-uploads/106332a9-8ee7-4f9d-931d-c7e591edb9d7.png" alt="R7 Logo" className="h-full w-full object-contain" />
           </div>
           <div>
-            <h1 className="text-xl font-semibold">LUUNO AI</h1>
-            <p className="text-sm text-muted-foreground">Intelligent Business Assistant</p>
+            <h1 className="text-xl font-semibold">R7 SPORTS AI</h1>
+            <p className="text-sm text-muted-foreground">Intelligent Sports Assistant</p>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -41,12 +41,12 @@ export default function Chat() {
           <Card className="bg-gradient-card border-border shadow-card">
             <CardContent className="p-6">
               <div className="flex items-start gap-4">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary flex-shrink-0">
-                  <Brain className="h-4 w-4 text-primary-foreground" />
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white p-1 flex-shrink-0">
+                  <img src="/lovable-uploads/106332a9-8ee7-4f9d-931d-c7e591edb9d7.png" alt="R7 Logo" className="h-full w-full object-contain" />
                 </div>
                 <div className="space-y-2">
                   <p className="font-medium">
-                    Hello! I'm LUUNO AI, your quantum-enhanced business automation assistant. Memory has been reset.
+                    Hello! I'm R7 Sports AI, your intelligent sports automation assistant. Memory has been reset.
                   </p>
                   <p className="text-muted-foreground">How can I help you today?</p>
                   <div className="flex items-center gap-2 text-xs text-muted-foreground">
@@ -78,7 +78,7 @@ export default function Chat() {
         <div className="max-w-4xl mx-auto">
           <div className="flex gap-3">
             <Input
-              placeholder="Ask LUUNO AI anything about business automation..."
+              placeholder="Ask R7 Sports AI anything about sports automation..."
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               className="flex-1"
