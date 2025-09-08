@@ -17,33 +17,33 @@ import {
 
 const metrics = [
   {
-    title: "Revenue",
-    value: "$847K",
-    description: "This month from AI automation",
+    title: "AI Insights",
+    value: "12.4K",
+    description: "Real-time sports analytics generated",
     change: "+23.4%",
     changeType: "positive" as const,
-    icon: <DollarSign className="h-5 w-5 text-primary" />
+    icon: <BarChart3 className="h-5 w-5 text-primary" />
   },
   {
-    title: "Agents",
-    value: "47",
-    description: "Agents currently deployed",
-    change: "+8",
-    changeType: "positive" as const,
-    icon: <Bot className="h-5 w-5 text-primary" />
-  },
-  {
-    title: "Automations",
+    title: "Active Users",
     value: "2,847",
-    description: "Active automations across platform",
+    description: "Athletes and coaches using R7",
+    change: "+18.2%",
+    changeType: "positive" as const,
+    icon: <Users className="h-5 w-5 text-primary" />
+  },
+  {
+    title: "Performance Gains",
+    value: "34.7%",
+    description: "Average improvement tracked",
     change: "+15.2%",
     changeType: "positive" as const,
     icon: <Zap className="h-5 w-5 text-primary" />
   },
   {
-    title: "Time Saved",
-    value: "1,247h",
-    description: "Total automation time saved",
+    title: "Data Points",
+    value: "847M",
+    description: "Sports data points analyzed",
     change: "+31%",
     changeType: "positive" as const,
     icon: <Clock className="h-5 w-5 text-primary" />
@@ -109,20 +109,20 @@ export default function Dashboard() {
   return (
     <div className="flex-1 space-y-8 p-8">
       {/* Header */}
-      <div className="text-center space-y-4">
-        <h1 className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-          The Future of Business Automation
+      <div className="text-center space-y-6 py-8">
+        <h1 className="text-5xl font-bold bg-gradient-hero bg-clip-text text-transparent leading-tight">
+          The Future of Sports AI
         </h1>
-        <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-          Harness the power of AI agents and intelligent workflows to transform your business operations. Join
-          thousands of companies already revolutionizing their processes.
+        <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+          Experience the next generation of sports intelligence with R7 AI. Advanced analytics, 
+          real-time insights, and personalized recommendations powered by cutting-edge artificial intelligence.
         </p>
-        <div className="flex items-center justify-center gap-4 mt-6">
-          <Button size="lg" className="bg-gradient-primary shadow-glow">
+        <div className="flex items-center justify-center gap-4 mt-8">
+          <Button size="lg" className="shadow-primary">
             Start Chatting
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
-          <Button variant="outline" size="lg">
+          <Button variant="secondary" size="lg">
             Watch Demo
           </Button>
         </div>
