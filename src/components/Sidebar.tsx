@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { BarChart3, Bot, Brain, MessageCircle, Settings, Users, Workflow, Zap, Database, BookOpen } from "lucide-react";
+import { BarChart3, Bot, MessageCircle, Settings, Users, Workflow, Zap, Database, BookOpen } from "lucide-react";
 import { NavLink } from "react-router-dom";
 const navigation = [{
   name: "Dashboard",
@@ -39,8 +39,8 @@ export const Sidebar = () => {
       {/* Logo */}
       <div className="flex h-16 items-center px-6">
         <div className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-            <Brain className="h-5 w-5 text-primary-foreground" />
+          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white p-1">
+            <img src="/lovable-uploads/106332a9-8ee7-4f9d-931d-c7e591edb9d7.png" alt="R7 Logo" className="h-full w-full object-contain" />
           </div>
           <span className="text-lg font-semibold text-sidebar-foreground">R7GO SPORTS</span>
         </div>
