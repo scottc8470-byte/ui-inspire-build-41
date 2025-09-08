@@ -42,7 +42,7 @@ export const Sidebar = () => {
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white p-1">
             <img src="/lovable-uploads/106332a9-8ee7-4f9d-931d-c7e591edb9d7.png" alt="R7 Logo" className="h-full w-full object-contain" />
           </div>
-          <span className="text-lg font-semibold text-sidebar-foreground">R7GO SPORTS</span>
+          <span className="text-lg font-semibold text-sidebar-foreground">R7GO</span>
         </div>
       </div>
 
