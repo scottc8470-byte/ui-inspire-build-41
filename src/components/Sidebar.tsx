@@ -15,7 +15,7 @@ import { NavLink } from "react-router-dom";
 
 const navigation = [
   { name: "Dashboard", href: "/", icon: BarChart3 },
-  { name: "Luuno AI", href: "/chat", icon: MessageCircle },
+  { name: "R7 Chat", href: "/chat", icon: MessageCircle },
   { name: "AI Agents", href: "/agents", icon: Bot },
   { name: "Workflows", href: "/workflows", icon: Workflow },
   { name: "Analytics", href: "/analytics", icon: BarChart3 },
