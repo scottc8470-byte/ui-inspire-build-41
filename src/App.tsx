@@ -11,7 +11,7 @@ import Workflows from "./pages/Workflows";
 import Analytics from "./pages/Analytics";
 import Community from "./pages/Community";
 import Knowledge from "./pages/Knowledge";
-import Quantum from "./pages/Quantum";
+
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 
@@ -33,7 +33,7 @@ const App = () => (
               <Route path="analytics" element={<Analytics />} />
               <Route path="community" element={<Community />} />
               <Route path="knowledge" element={<Knowledge />} />
-              <Route path="quantum" element={<Quantum />} />
+              
               <Route path="settings" element={<Settings />} />
             </Route>
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

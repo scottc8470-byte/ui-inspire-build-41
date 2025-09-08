@@ -21,7 +21,7 @@ const navigation = [
   { name: "Analytics", href: "/analytics", icon: BarChart3 },
   { name: "Community", href: "/community", icon: Users },
   { name: "Knowledge", href: "/knowledge", icon: BookOpen },
-  { name: "Quantum", href: "/quantum", icon: Zap },
+  
   { name: "Settings", href: "/settings", icon: Settings },
 ];
 
