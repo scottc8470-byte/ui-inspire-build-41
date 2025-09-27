@@ -22,7 +22,7 @@ const metrics = [
     description: "This month from AI automation",
     change: "+23.4%",
     changeType: "positive" as const,
-    icon: <DollarSign className="h-5 w-5 text-primary" />
+    icon: <DollarSign className="h-5 w-5 text-black" />
   },
   {
     title: "Agents",
