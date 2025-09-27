@@ -42,7 +42,7 @@ export const MetricCard = ({
         </div>
         <div className="space-y-2">
           <h3 className="text-2xl font-bold text-black">{value}</h3>
-          <p className="text-sm text-muted-foreground">{description}</p>
+          <p className="text-sm text-black">{description}</p>
         </div>
       </CardContent>
     </Card>
