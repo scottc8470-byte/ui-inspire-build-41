@@ -140,7 +140,7 @@ export default function Dashboard() {
         {/* Quick Actions */}
         <Card className="bg-gradient-card border-border shadow-card">
           <CardHeader>
-            <CardTitle>Quick Actions</CardTitle>
+            <CardTitle className="text-black">Quick Actions</CardTitle>
           </CardHeader>
           <CardContent className="grid grid-cols-2 gap-4">
             {quickActions.map((action, index) => (
