@@ -110,7 +110,7 @@ export default function Dashboard() {
     <div className="flex-1 space-y-8 p-8">
       {/* Header */}
       <div className="text-center space-y-4">
-        <h1 className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+        <h1 className="text-4xl font-bold text-white">
           The Future of Business Automation
         </h1>
         <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
