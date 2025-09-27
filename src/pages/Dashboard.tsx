@@ -118,7 +118,7 @@ export default function Dashboard() {
           thousands of companies already revolutionizing their processes.
         </p>
         <div className="flex items-center justify-center gap-4 mt-6">
-          <Button size="lg" className="bg-gradient-primary shadow-glow">
+          <Button size="lg" className="bg-white text-black shadow-glow">
             Start Chatting
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
