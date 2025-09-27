@@ -166,7 +166,7 @@ export default function Dashboard() {
         {/* Recent Activity */}
         <Card className="bg-gradient-card border-border shadow-card">
           <CardHeader>
-            <CardTitle>Recent Activity</CardTitle>
+            <CardTitle className="text-black">Recent Activity</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
