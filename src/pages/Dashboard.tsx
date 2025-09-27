@@ -175,7 +175,7 @@ export default function Dashboard() {
                   <div className="w-2 h-2 rounded-full bg-success" />
                   <div className="flex-1 space-y-1">
                     <p className="text-sm font-medium">{activity.title}</p>
-                    <p className="text-xs text-muted-foreground">{activity.time}</p>
+                    <p className="text-xs text-black">{activity.time}</p>
                   </div>
                   <Badge variant="success" className="text-xs">
                     {activity.status}
