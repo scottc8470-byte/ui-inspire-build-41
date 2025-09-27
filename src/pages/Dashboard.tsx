@@ -30,7 +30,7 @@ const metrics = [
     description: "Agents currently deployed",
     change: "+8",
     changeType: "positive" as const,
-    icon: <Bot className="h-5 w-5 text-primary" />
+    icon: <Bot className="h-5 w-5 text-black" />
   },
   {
     title: "Automations",
@@ -38,7 +38,7 @@ const metrics = [
     description: "Active automations across platform",
     change: "+15.2%",
     changeType: "positive" as const,
-    icon: <Zap className="h-5 w-5 text-primary" />
+    icon: <Zap className="h-5 w-5 text-black" />
   },
   {
     title: "Time Saved",
@@ -46,7 +46,7 @@ const metrics = [
     description: "Total automation time saved",
     change: "+31%",
     changeType: "positive" as const,
-    icon: <Clock className="h-5 w-5 text-primary" />
+    icon: <Clock className="h-5 w-5 text-black" />
   }
 ];
 
@@ -54,25 +54,25 @@ const quickActions = [
   {
     title: "Deploy New Agent",
     description: "Create and launch an AI agent",
-    icon: <Bot className="h-5 w-5" />,
+    icon: <Bot className="h-5 w-5 text-black" />,
     variant: "default" as const
   },
   {
     title: "Create Workflow",
     description: "Build automated processes",
-    icon: <Workflow className="h-5 w-5" />,
+    icon: <Workflow className="h-5 w-5 text-black" />,
     variant: "secondary" as const
   },
   {
     title: "View Analytics",
     description: "Deep dive into performance",
-    icon: <BarChart3 className="h-5 w-5" />,
+    icon: <BarChart3 className="h-5 w-5 text-black" />,
     variant: "outline" as const
   },
   {
     title: "Browse Community",
     description: "Explore templates & guides",
-    icon: <MessageCircle className="h-5 w-5" />,
+    icon: <MessageCircle className="h-5 w-5 text-black" />,
     variant: "outline" as const
   }
 ];
