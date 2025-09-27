@@ -156,7 +156,7 @@ export default function Dashboard() {
                 </Button>
                 <div className="text-center">
                   <h3 className="font-medium text-sm">{action.title}</h3>
-                  <p className="text-xs text-muted-foreground">{action.description}</p>
+                  <p className="text-xs text-black">{action.description}</p>
                 </div>
               </div>
             ))}
